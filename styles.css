@@ -75,7 +75,7 @@
     background-repeat: no-repeat;
     position: absolute;
     z-index: -1;
-    transform:translateZ(-1px) scale(2);
+    transform:translateZ(-1px) scale(1);
 }
 .regular-wrapper {
     width: 100vw;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5 {
     background-repeat: no-repeat;
     position: absolute;
     z-index: -4;
-    transform:translateZ(-1px) scale(2) translateX(-8px);
+    transform:translateZ(-1px) scale(1) translateX(-8px);
 }
 .veil {
     width: 100%;
@@ -361,6 +361,9 @@ h1, h2, h3, h4, h5 {
     margin-left: 30px;
     color: white;
 }
+.myFooter a {
+    padding-bottom: 60px;
+}
 
 
 
@@ -396,6 +399,7 @@ h1, h2, h3, h4, h5 {
     content:"";
     width: 100vw;
     background-image: url("images/villainScreenCap1.JPG");
+    transform: scale(2);
 }
 .parallax-wrapper::before {
     transform: scale(3);
@@ -507,6 +511,10 @@ h1, h2, h3, h4, h5 {
     height: 370px;
     width: 870px;
 }
+.myFooter a {
+    padding-bottom: 0;
+}
+
 
 
 
