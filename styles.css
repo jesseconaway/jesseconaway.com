@@ -55,6 +55,9 @@
     cursor: pointer;
     z-index: 3;
 }
+.parallax-wrapper a, .parallax-wrapper2 a {
+    font-size: 5rem;
+}
 .parallax-wrapper h1:hover, .parallax-wrapper2 h1:hover {
     font-size: 5.5rem;
     text-shadow: 0 0 4px black;
