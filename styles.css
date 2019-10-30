@@ -75,7 +75,7 @@
     background-repeat: no-repeat;
     position: absolute;
     z-index: -1;
-    transform:translateZ(-1px) scale(3);
+    transform:translateZ(-1px) scale(2);
 }
 .regular-wrapper {
     width: 100vw;
@@ -396,6 +396,9 @@ h1, h2, h3, h4, h5 {
     content:"";
     width: 100vw;
     background-image: url("images/villainScreenCap1.JPG");
+}
+.parallax-wrapper::before {
+    transform: scale(3);
 }
 .landingMessage p {
     width: 70%;
