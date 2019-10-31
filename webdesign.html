@@ -51,6 +51,19 @@
             </div>
         </div>
         <div class="col-12 mt-3 mb-3 mt-md-2 mb-md-3">
+                <div class="veil" onmouseenter="zag(); zag2();" onmouseleave="zagClose(); zagClose2();">
+                    <a href="zaggari.html">
+                    <div id="zagPopup2" class="d-none">
+                        <p class="pl-3 pr-3 pt-2">Zagarri Engineering</p>
+                    </div>
+                    <div class="webDesignBlock zagBlock"></div>
+                    <div id="zagPopup" class="d-none">
+                        <p class="pl-3 pr-3 pt-2">Website and Graphic Design</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        <div class="col-12 mt-3 mb-3 mt-md-2 mb-md-3">
             <div class="veil" onmouseenter="sciencegal(); sciencegal2();" onmouseleave="sciencegalClose(); sciencegalClose2();">
                 <a href="sciencegal.html">
                 <div id="sciencegalPopup2" class="d-none">
@@ -92,8 +105,8 @@ var bm = document.getElementById("villainPopup");
 var bm2 = document.getElementById("villainPopup2");
 var mcs = document.getElementById("sciencegalPopup");
 var mcs2 = document.getElementById("sciencegalPopup2");
-var dd = document.getElementById("digDeepPopup");
-var dd2 = document.getElementById("digDeepPopup2");
+var dd = document.getElementById("zagPopup");
+var dd2 = document.getElementById("zagPopup2");
 var til = document.getElementById("tilghmanPopup");
 var til2 = document.getElementById("tilghmanPopup2");
 var pdmb = document.getElementById("polkadotsPopup");
@@ -111,6 +124,11 @@ if (window.matchMedia("(max-width: 991px)").matches) {
     mcs.classList.add("animate");
     mcs2.classList.remove("d-none");
     mcs2.classList.add("animate2");
+
+    dd.classList.remove("d-none");
+    dd.classList.add("animate");
+    dd2.classList.remove("d-none");
+    dd2.classList.add("animate2");
 }
 
 if (window.matchMedia("(min-width: 992px)").matches) {
@@ -123,6 +141,11 @@ if (window.matchMedia("(min-width: 992px)").matches) {
     mcs.classList.add("d-none");
     mcs2.classList.remove("animate2");
     mcs2.classList.add("d-none");
+
+    dd.classList.remove("animate");
+    dd.classList.add("d-none");
+    dd2.classList.remove("animate2");
+    dd2.classList.add("d-none");
 }
 
 function villain() {
@@ -159,19 +182,19 @@ function sciencegalClose2() {
     mcs2.classList.add("d-none");
 }
 
-function digDeep() {
+function zag() {
     dd.classList.remove("d-none");
     dd.classList.add("animate");
 }
-function digDeepClose() {
+function zagClose() {
     dd.classList.remove("animate");
     dd.classList.add("d-none");
 }
-function digDeep2() {
+function zag2() {
     dd2.classList.remove("d-none");
     dd2.classList.add("animate2");
 }
-function digDeepClose2() {
+function zagClose2() {
     dd2.classList.remove("animate2");
     dd2.classList.add("d-none");
 }
