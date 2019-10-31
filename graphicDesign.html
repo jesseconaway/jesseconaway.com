@@ -28,7 +28,7 @@
   <div class="container">
         <div class="row">
                 <div class="col">
-              <img src="images/ClassyWordmark-01.png" alt="jesse conaway graphic web design logo" style="max-width: 100%; width: auto; height: auto; background-color: white; z-index: 9; padding-top: 20px;">
+                        <a href="index.html"><img src="images/ClassyWordmark-01.png" alt="jesse conaway graphic web design logo" style="max-width: 100%; width: auto; height: auto; background-color: white; z-index: 9; padding-top: 20px;"></a>
             </div>
             </div>
     </div>
@@ -154,6 +154,70 @@ var pdmb = document.getElementById("polkadotsPopup");
 var pdmb2 = document.getElementById("polkadotsPopup2");
 var noco = document.getElementById("nocoPopup");
 var noco2 = document.getElementById("nocoPopup2");
+
+if (window.matchMedia("(max-width: 991px)").matches) {
+    bm.classList.remove("d-none");
+    bm.classList.add("animate");
+    bm2.classList.remove("d-none");
+    bm2.classList.add("animate2");
+
+    mcs.classList.remove("d-none");
+    mcs.classList.add("animate");
+    mcs2.classList.remove("d-none");
+    mcs2.classList.add("animate2");
+
+    dd.classList.remove("d-none");
+    dd.classList.add("animate");
+    dd2.classList.remove("d-none");
+    dd2.classList.add("animate2");
+
+    til.classList.remove("d-none");
+    til.classList.add("animate");
+    til2.classList.remove("d-none");
+    til2.classList.add("animate2");
+
+    pdmb.classList.remove("d-none");
+    pdmb.classList.add("animate");
+    pdmb2.classList.remove("d-none");
+    pdmb2.classList.add("animate2");
+
+    noco.classList.remove("d-none");
+    noco.classList.add("animate");
+    noco2.classList.remove("d-none");
+    noco2.classList.add("animate2");
+}
+
+if (window.matchMedia("(min-width: 992px)").matches) {
+    bm.classList.remove("animate");
+    bm.classList.add("d-none");
+    bm2.classList.remove("animate2");
+    bm2.classList.add("d-none");
+
+    mcs.classList.remove("animate");
+    mcs.classList.add("d-none");
+    mcs2.classList.remove("animate2");
+    mcs2.classList.add("d-none");
+
+    dd.classList.remove("animate");
+    dd.classList.add("d-none");
+    dd2.classList.remove("animate2");
+    dd2.classList.add("d-none");
+
+    til.classList.remove("animate");
+    til.classList.add("d-none");
+    til2.classList.remove("animate2");
+    til2.classList.add("d-none");
+
+    pdmb.classList.remove("animate");
+    pdmb.classList.add("d-none");
+    pdmb2.classList.remove("animate2");
+    pdmb2.classList.add("d-none");
+
+    noco.classList.remove("animate");
+    noco.classList.add("d-none");
+    noco2.classList.remove("animate2");
+    noco2.classList.add("d-none");
+}
 
 function bailaMax() {
     bm.classList.remove("d-none");

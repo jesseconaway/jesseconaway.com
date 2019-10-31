@@ -214,6 +214,7 @@ h1, h2, h3, h4, h5 {
     font-size: 3rem;
     text-align: center;
     margin-bottom: 30px;
+    line-height: 2.2rem;
 }
 .modalHead {
     font-size: 2rem;
