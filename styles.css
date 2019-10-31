@@ -12,7 +12,7 @@
     height: 350px;
     background-color: rgba(255,255,255,1);
     position: relative;
-    padding: 10px 80px;
+    padding: 30px 80px;
     margin: 0;
     z-index: 3;
 }
@@ -75,7 +75,7 @@
     background-repeat: no-repeat;
     position: absolute;
     z-index: -1;
-    transform:translateZ(-1px) scale(3);
+    transform:translateZ(-1px) scale(1);
 }
 .regular-wrapper {
     width: 100vw;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5 {
     background-repeat: no-repeat;
     position: absolute;
     z-index: -4;
-    transform:translateZ(-1px) scale(2) translateX(-8px);
+    transform:translateZ(-1px) scale(1) translateX(-8px);
 }
 .veil {
     width: 100%;
@@ -392,10 +392,27 @@ h1, h2, h3, h4, h5 {
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+.parallax-wrapper::before {
+    content:"";
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    background-image: url("images/mcs-full.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    transform:translateZ(-1px) scale(3);
+}
 .parallax-wrapper2::before {
     content:"";
     width: 100vw;
     background-image: url("images/villainScreenCap1.JPG");
+    transform:translateZ(-1px) scale(1) translateX(-8px);
+}
+.landingMessage {
+    padding: 10px 80px;
 }
 .landingMessage p {
     width: 70%;
