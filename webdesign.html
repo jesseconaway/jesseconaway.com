@@ -101,6 +101,30 @@ var pdmb2 = document.getElementById("polkadotsPopup2");
 var noco = document.getElementById("nocoPopup");
 var noco2 = document.getElementById("nocoPopup2");
 
+if (window.matchMedia("(max-width: 991px)").matches) {
+    bm.classList.remove("d-none");
+    bm.classList.add("animate");
+    bm2.classList.remove("d-none");
+    bm2.classList.add("animate2");
+
+    mcs.classList.remove("d-none");
+    mcs.classList.add("animate");
+    mcs2.classList.remove("d-none");
+    mcs2.classList.add("animate2");
+}
+
+if (window.matchMedia("(min-width: 992px)").matches) {
+    bm.classList.remove("animate");
+    bm.classList.add("d-none");
+    bm2.classList.remove("animate2");
+    bm2.classList.add("d-none");
+
+    mcs.classList.remove("animate");
+    mcs.classList.add("d-none");
+    mcs2.classList.remove("animate2");
+    mcs2.classList.add("d-none");
+}
+
 function villain() {
     bm.classList.remove("d-none");
     bm.classList.add("animate");
