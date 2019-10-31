@@ -354,6 +354,9 @@ h1, h2, h3, h4, h5 {
     position: relative;
 
 }
+.aboutBlock ol {
+    z-index: 9999;
+}
 .aboutBlock li {
     margin-left: 20px;
     color: white;
