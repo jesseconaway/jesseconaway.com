@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/qsf3yjt.css">
     <style>
+     body {    
+        height: auto;
+        perspective: 1px;
+        transform-style: preserve-3d;
+        overflow-x:hidden;
+        overflow-y:auto;
+    }
+    @media (min-width: 768px) {
     body {    
         height: 100vh;
         perspective: 1px;
@@ -17,6 +25,7 @@
     html {
         overflow: hidden;
     }
+}
     </style>
     <title>Jesse Conaway Portfolio</title>
   </head>
@@ -75,16 +84,15 @@
         </div>
 
         <nav class="navbar navbar-expand navbar-dark bg-dark justify-content-center">
-                <div class="continer">
-                      <div class="navbar-nav mx-auto text-center" style="border: none;">
-                        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="about.html">About</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
-                      </div>
-                    </div>
+            <div class="continer">
+                  <div class="navbar-nav mx-auto text-center" style="border: none;">
+                    <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="about.html">About</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                  </div>
                 </div>
-                  </nav>
-                  <div class="row"><div class="col" style="background-color: #343a40;"><hr class="d-block d-md-none" style="margin: 25px 0; border: 1px solid #343a40;"></div></div>
+            </div>
+        </nav>
     <script>
     
     function highlight() {
