@@ -118,6 +118,47 @@
             </div>
         </div>
     </div>
+    <div class="row ml-3 mr-3 mb-3 mt-md-3 mb-md-3">
+        <div class="col-12 col-md-4 mt-3 mb-3 pr-3 pl-3">
+            <div class="veil" onmouseenter="scmma(); scmma2();" onmouseleave="scmmaClose(); scmmaClose2();">
+                <a href="scmma.html">
+                <div id="scmmaPopup2" class="d-none">
+                    <p class="pl-3 pr-3 pt-2">St. Charles MMA</p>
+                </div>
+                <img class="previewImg" src="images/scmmaShirt.png" alt="jesse conaway graphic web design portfolio" href="scmma.html">
+                <div id="scmmaPopup" class="d-none">
+                    <p class="pl-3 pr-3 pt-2">Shirt/Print Design</p>
+                </div>
+            </a>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mt-3 mb-3 pr-3 pl-3">
+            <div class="veil" onmouseenter="nfa(); nfa2();" onmouseleave="nfaClose(); nfaClose2();">
+                <a href="nfa.html">
+                <div id="nfaPopup2" class="d-none">
+                    <p class="pl-3 pr-3 pt-2">Nemesis Fighting Alliance</p>
+                </div>
+                <img class="previewImg" src="images/nemesisLogo-01.png" alt="jesse conaway graphic web design portfolio" href="nfa.html">
+                <div id="nfaPopup" class="d-none">
+                    <p class="pl-3 pr-3 pt-2">Logo Design</p>
+                </div>
+            </a>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mt-3 mb-3 pr-3 pl-3">
+            <div class="veil" onmouseenter="zag(); zag2();" onmouseleave="zagClose(); zagClose2();">
+                <a href="zag.html">
+                <div id="zagPopup2" class="d-none">
+                    <p class="pl-3 pr-3 pt-2">Zagarri Engineering</p>
+                </div>
+                <img class="previewImg" src="images/zag_logo_mod-08.png" alt="jesse conaway graphic web design portfolio" href="zag.html">
+                <div id="zagPopup" class="d-none">
+                    <p class="pl-3 pr-3 pt-2">Style Guide</p>
+                </div>
+            </a>
+            </div>
+        </div>
+    </div>
 </div>
     <div class="row">
         <div class="mx-auto">
@@ -154,6 +195,12 @@ var pdmb = document.getElementById("polkadotsPopup");
 var pdmb2 = document.getElementById("polkadotsPopup2");
 var noco = document.getElementById("nocoPopup");
 var noco2 = document.getElementById("nocoPopup2");
+var mma = document.getElementById("scmmaPopup");
+var mma2 = document.getElementById("scmmaPopup2");
+var nemesis = document.getElementById("nfaPopup");
+var nemesis2 = document.getElementById("nfaPopup2");
+var zagarri = document.getElementById("zagPopup");
+var zagarri2 = document.getElementById("zagPopup2");
 
 if (window.matchMedia("(max-width: 991px)").matches) {
     bm.classList.remove("d-none");
@@ -185,6 +232,21 @@ if (window.matchMedia("(max-width: 991px)").matches) {
     noco.classList.add("animate");
     noco2.classList.remove("d-none");
     noco2.classList.add("animate2");
+
+    mma.classList.remove("d-none");
+    mma.classList.add("animate");
+    mma2.classList.remove("d-none");
+    mma2.classList.add("animate2");
+
+    nemesis.classList.remove("d-none");
+    nemesis.classList.add("animate");
+    nemesis2.classList.remove("d-none");
+    nemesis2.classList.add("animate2");
+
+    zagarri.classList.remove("d-none");
+    zagarri.classList.add("animate");
+    zagarri2.classList.remove("d-none");
+    zagarri2.classList.add("animate2");
 }
 
 if (window.matchMedia("(min-width: 992px)").matches) {
@@ -217,6 +279,21 @@ if (window.matchMedia("(min-width: 992px)").matches) {
     noco.classList.add("d-none");
     noco2.classList.remove("animate2");
     noco2.classList.add("d-none");
+
+    mma.classList.remove("animate");
+    mma.classList.add("d-none");
+    mma2.classList.remove("animate2");
+    mma2.classList.add("d-none");
+
+    nemesis.classList.remove("animate");
+    nemesis.classList.add("d-none");
+    nemesis2.classList.remove("animate2");
+    nemesis2.classList.add("d-none");
+
+    zagarri.classList.remove("animate");
+    zagarri.classList.add("d-none");
+    zagarri2.classList.remove("animate2");
+    zagarri2.classList.add("d-none");
 }
 
 function bailaMax() {
@@ -319,6 +396,57 @@ function northCounty2() {
 function northCountyClose2() {
     noco2.classList.remove("animate2");
     noco2.classList.add("d-none");
+}
+
+function scmma() {
+    mma.classList.remove("d-none");
+    mma.classList.add("animate");
+}
+function scmmaClose() {
+    mma.classList.remove("animate");
+    mma.classList.add("d-none");
+}
+function scmma2() {
+    mma2.classList.remove("d-none");
+    mma2.classList.add("animate2");
+}
+function scmmaClose2() {
+    mma2.classList.remove("animate2");
+    mma2.classList.add("d-none");
+}
+
+function nfa() {
+    nemesis.classList.remove("d-none");
+    nemesis.classList.add("animate");
+}
+function nfaClose() {
+    nemesis.classList.remove("animate");
+    nemesis.classList.add("d-none");
+}
+function nfa2() {
+    nemesis2.classList.remove("d-none");
+    nemesis2.classList.add("animate2");
+}
+function nfaClose2() {
+    nemesis2.classList.remove("animate2");
+    nemesis2.classList.add("d-none");
+}
+
+function zag() {
+    zagarri.classList.remove("d-none");
+    zagarri.classList.add("animate");
+}
+function zagClose() {
+    zagarri.classList.remove("animate");
+    zagarri.classList.add("d-none");
+}
+function zag2() {
+    zagarri2.classList.remove("d-none");
+    zagarri2.classList.add("animate2");
+}
+function zagClose2() {
+    zagarri2.classList.remove("animate2");
+    zagarri2.classList.add("d-none");
 }
 
 </script>
