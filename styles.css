@@ -277,9 +277,6 @@ h1, h2, h3, h4, h5 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-.cloudCol3high {
-    /*height: 33.3% !important;*/
-}
 .cloudImg {
     object-fit: cover;
     position: relative;
@@ -331,7 +328,7 @@ h1, h2, h3, h4, h5 {
     background-size: 100% auto;
 }
 .weightCutBlock {
-    background-image: url("images/weightCutMobile.JPG");
+    background-image: url("images/weightCutMobile.jpg");
     background-origin: center top;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -485,7 +482,7 @@ h1, h2, h3, h4, h5 {
     background-image: url("images/villainScreenCap1.JPG");
 }
 .weightCutBlock {
-    background-image: url("images/weightCutHomepage.JPG");
+    background-image: url("images/weightCutHomepage.jpg");
 }
 .webDesignBlock {
     width: 630px;
