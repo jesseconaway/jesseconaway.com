@@ -429,7 +429,7 @@ h1, h2, h3, h4, h5 {
 .parallax-wrapper2::before {
     content:"";
     width: 100vw;
-    background-image: url("images/weightCutHome.jpg");
+    background-image: url("images/weightCutHomepage.jpg");
     transform:translateZ(-1px) scale(2) translateX(-8px);
 }
 .landingMessage {
@@ -485,7 +485,7 @@ h1, h2, h3, h4, h5 {
     background-image: url("images/villainScreenCap1.JPG");
 }
 .weightCutBlock {
-    background-image: url("images/weightCutHome.JPG");
+    background-image: url("images/weightCutHomepage.JPG");
 }
 .webDesignBlock {
     width: 630px;
