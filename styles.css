@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5 {
     height: 100vh;
     top: 0;
     left: 0;
-    background-image: url("images/villainScreenCap2.png");
+    background-image: url("images/weightCutMobile.jpg");
     background-position: top center;
     background-repeat: no-repeat;
     position: absolute;
@@ -257,29 +257,28 @@ h1, h2, h3, h4, h5 {
     position: relative;
 }
 .cloudRow {
-    height: 250px;
+    /*height: 250px;*/
     margin: 20px auto 40px auto;
 }
 .cloudRow3high {
-    height: 375px;
+    /*height: 375px;*/
     margin: 20px auto 40px auto;
 }
 .cloudCol {
-    height: 50%;
+    height: 140px;
     overflow: hidden;
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 .cloudColBig {
-    height: 100%;
     overflow: hidden;
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 .cloudCol3high {
-    height: 33.3% !important;
+    /*height: 33.3% !important;*/
 }
 .cloudImg {
     object-fit: cover;
@@ -327,6 +326,12 @@ h1, h2, h3, h4, h5 {
 }
 .zagBlock {
     background-image: url("images/Zag_lg.jpg");
+    background-origin: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.weightCutBlock {
+    background-image: url("images/weightCutMobile.JPG");
     background-origin: center top;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -402,12 +407,12 @@ h1, h2, h3, h4, h5 {
 .landingMessage2 {
     line-height: 2.4rem;
 }
-.cloudRow {
+/*.cloudRow {
     height: 300px;
 }
 .cloudRow3high {
     height: 450px;
-}
+}*/
 .webDesignBlock {
     width: 450px;
 }
@@ -419,22 +424,12 @@ h1, h2, h3, h4, h5 {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 .parallax-wrapper::before {
-    content:"";
-    width: 100vw;
-    height: 100vh;
-    top:0;
-    left:0;
-    background-image: url("images/mcs-full.jpg");
-    background-position: top center;
-    background-repeat: no-repeat;
-    position: absolute;
-    z-index: -1;
     transform:translateZ(-1px) scale(3);
 }
 .parallax-wrapper2::before {
     content:"";
     width: 100vw;
-    background-image: url("images/villainScreenCap1.JPG");
+    background-image: url("images/weightCutHome.jpg");
     transform:translateZ(-1px) scale(2) translateX(-8px);
 }
 .landingMessage {
@@ -476,18 +471,21 @@ h1, h2, h3, h4, h5 {
 .portfolioHeader {
     font-size: 4rem;
 }
-.cloudRow {
+/*.cloudRow {
     height: 350px;
 }
 .cloudRow3high {
     height: 525px;
-}
+}*/
 .animate p, .animate2 p {
     font-size: 1.5rem;
     line-height: 1.2rem;
 }
 .villainBlock {
     background-image: url("images/villainScreenCap1.JPG");
+}
+.weightCutBlock {
+    background-image: url("images/weightCutHome.JPG");
 }
 .webDesignBlock {
     width: 630px;
@@ -504,6 +502,9 @@ h1, h2, h3, h4, h5 {
 .aboutBlock h2 {
     margin-left: 80px;
     color: white;
+}
+.cloudCol {
+    height: 250px;
 }
 
 
@@ -538,12 +539,12 @@ h1, h2, h3, h4, h5 {
 .landingMessageTop p {
     transform: translateY(-70%);
 }
-.cloudRow {
+/*.cloudRow {
     height: 400px;
 }
 .cloudRow3high {
     height: 600px;
-}
+}*/
 .animate p, .animate2 p {
     font-size: 2.3rem;
     line-height: 1.9rem;
@@ -555,7 +556,9 @@ h1, h2, h3, h4, h5 {
 .myFooter a {
     padding-bottom: 0;
 }
-
+.cloudCol {
+    height: 210px;
+}
 
 
 
@@ -563,19 +566,20 @@ h1, h2, h3, h4, h5 {
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .parallax-wrapper2::before {
-        content:"";
-        width: 100vw;
-        background-image: url("images/villainScreenCap1.JPG");
-    }
+.parallax-wrapper2::before {
+    transform:translateZ(-1px) scale(2.5) translateX(0);
+}
 .portfolioHeader {
     font-size: 5rem;
 }
-.cloudRow {
+/*.cloudRow {
     height: 450px;
 }
 .cloudRow3high {
     height: 675px;
+}*/
+.cloudCol {
+    height: 250px;
 }
 .animate p, .animate2 p {
     font-size: 2.8rem;

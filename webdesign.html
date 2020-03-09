@@ -63,6 +63,19 @@
                     </a>
                 </div>
             </div>
+            <div class="col-12 mt-3 mb-3 mt-md-2 mb-md-3">
+                <div class="veil" onmouseenter="weightCut(); weightCut2();" onmouseleave="weightCutClose(); weightCutClose2();">
+                    <a href="cuttingWeight.html">
+                    <div id="weightCutPopup2" class="d-none">
+                        <p class="pl-3 pr-3 pt-2">Cutting Weight</p>
+                    </div>
+                    <div class="webDesignBlock weightCutBlock"></div>
+                    <div id="weightCutPopup" class="d-none">
+                        <p class="pl-3 pr-3 pt-2">Web Design & Build</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
         <div class="col-12 mt-3 mb-3 mt-md-2 mb-md-3">
             <div class="veil" onmouseenter="sciencegal(); sciencegal2();" onmouseleave="sciencegalClose(); sciencegalClose2();">
                 <a href="sciencegal.html">
@@ -107,8 +120,8 @@ var mcs = document.getElementById("sciencegalPopup");
 var mcs2 = document.getElementById("sciencegalPopup2");
 var dd = document.getElementById("zagPopup");
 var dd2 = document.getElementById("zagPopup2");
-var til = document.getElementById("tilghmanPopup");
-var til2 = document.getElementById("tilghmanPopup2");
+var til = document.getElementById("weightCutPopup");
+var til2 = document.getElementById("weightCutPopup2");
 var pdmb = document.getElementById("polkadotsPopup");
 var pdmb2 = document.getElementById("polkadotsPopup2");
 var noco = document.getElementById("nocoPopup");
@@ -199,19 +212,19 @@ function zagClose2() {
     dd2.classList.add("d-none");
 }
 
-function tilghman() {
+function weightCut() {
     til.classList.remove("d-none");
     til.classList.add("animate");
 }
-function tilghmanClose() {
+function weightCutClose() {
     til.classList.remove("animate");
     til.classList.add("d-none");
 }
-function tilghman2() {
+function weightCut2() {
     til2.classList.remove("d-none");
     til2.classList.add("animate2");
 }
-function tilghmanClose2() {
+function weightCutClose2() {
     til2.classList.remove("animate2");
     til2.classList.add("d-none");
 }
