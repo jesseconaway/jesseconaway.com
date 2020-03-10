@@ -48,7 +48,7 @@
     border-bottom: 1px solid black;
 }
 .parallax-wrapper h1, .parallax-wrapper2 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -56,10 +56,10 @@
     z-index: 3;
 }
 .parallax-wrapper a, .parallax-wrapper2 a {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .parallax-wrapper a:hover, .parallax-wrapper2 a:hover {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     text-shadow: 0 0 4px black;
     transition: 100ms;
     transform-origin: center;
@@ -404,12 +404,6 @@ h1, h2, h3, h4, h5 {
 .landingMessage2 {
     line-height: 2.4rem;
 }
-/*.cloudRow {
-    height: 300px;
-}
-.cloudRow3high {
-    height: 450px;
-}*/
 .webDesignBlock {
     width: 450px;
 }
@@ -448,19 +442,11 @@ h1, h2, h3, h4, h5 {
 .landingMessageTop p {
     transform: translateY(-60%);
 }
-.parallax-wrapper h1, .parallax-wrapper2 h1 {
+.parallax-wrapper a, .parallax-wrapper2 a {
     font-size: 4rem;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    z-index: 3;
 }
-.parallax-wrapper h1:hover, .parallax-wrapper2 h1:hover {
+.parallax-wrapper a:hover, .parallax-wrapper2 a:hover {
     font-size: 4.5rem;
-    text-shadow: 0 0 4px black;
-    transition: 100ms;
-    transform-origin: center;
 }
 .previewImg {
     opacity: 0.6;
@@ -468,12 +454,6 @@ h1, h2, h3, h4, h5 {
 .portfolioHeader {
     font-size: 4rem;
 }
-/*.cloudRow {
-    height: 350px;
-}
-.cloudRow3high {
-    height: 525px;
-}*/
 .animate p, .animate2 p {
     font-size: 1.5rem;
     line-height: 1.2rem;
@@ -510,23 +490,15 @@ h1, h2, h3, h4, h5 {
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .landingMessage p {
-        width: 50%;
-    }
-    .parallax-wrapper h1, .parallax-wrapper2 h1 {
-        font-size: 5rem;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-        cursor: pointer;
-        z-index: 3;
-    }
-    .parallax-wrapper h1:hover, .parallax-wrapper2 h1:hover {
-        font-size: 5.5rem;
-        text-shadow: 0 0 4px black;
-        transition: 100ms;
-        transform-origin: center;
-    }
+.landingMessage p {
+    width: 50%;
+}
+.parallax-wrapper a, .parallax-wrapper2 a {
+    font-size: 5rem;
+}
+.parallax-wrapper a:hover, .parallax-wrapper2 a:hover {
+    font-size: 5.5rem;
+}
 .landingMessage {
     height: 450px;
 }
