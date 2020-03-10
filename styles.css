@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5 {
     background-repeat: no-repeat;
     position: absolute;
     z-index: -4;
-    transform:translateZ(-1px) scale(0.75) translateX(-8px);
+    transform:translateZ(-1px) scale(1) translateX(-8px);
 }
 .veil {
     width: 100%;
