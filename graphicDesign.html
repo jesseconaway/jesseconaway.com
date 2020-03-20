@@ -38,7 +38,7 @@
     <h1 class="text-center portfolioHeader">Graphic Design Portfolio</h1>
     <div class="row ml-3 mr-3 mt-3 mt-md-0 pb-md-3 pt-md-2">
         <div class="col-12 col-md-4 pr-3 pl-3 mt-3 mb-3 mt-md-2 mb-md-3">
-            <div class="veil" onmouseenter="bailaMax(); bailaMax2();" onmouseleave="bailaMaxClose(); bailaMaxClose2();">
+            <div class="veil">
                 <a href="bailamax.html">
                 <div id="bailaMaxPopup2" class="d-none">
                     <p class="pl-3 pr-3 pt-2">Bailamax</p>
@@ -51,7 +51,7 @@
         </div>
         </div>
         <div class="col-12 col-md-4 pr-3 pl-3 mt-3 mb-3 mt-md-2 mb-md-3">
-            <div class="veil" onmouseenter="motion(); motion2();" onmouseleave="motionClose(); motionClose2();">
+            <div class="veil">
                 <a href="mcs.html">
                 <div id="motionPopup2" class="d-none">
                     <p class="pl-3 pr-3 pt-2">Motion City Soundtrack</p>
@@ -64,7 +64,7 @@
             </div>
         </div>
         <div class="col-12 col-md-4 pr-3 pl-3 mt-3 mb-3 mt-md-2 mb-md-3">
-            <div class="veil" onmouseenter="digDeep(); digDeep2();" onmouseleave="digDeepClose(); digDeepClose2();">
+            <div class="veil">
                 <a href="digdeep.html">
                 <div id="digDeepPopup2" class="d-none">
                     <p class="pl-3 pr-3 pt-2">Crossfit Dig Deep</p>
@@ -79,7 +79,7 @@
     </div>
     <div class="row ml-3 mr-3 mb-3 mt-md-3 mb-md-3">
         <div class="col-12 col-md-4 mt-3 mb-3 pr-3 pl-3">
-            <div class="veil" onmouseenter="tilghman(); tilghman2();" onmouseleave="tilghmanClose(); tilghmanClose2();">
+            <div class="veil">
                 <a href="kellyBanner.html">
                 <div id="tilghmanPopup2" class="d-none">
                     <p class="pl-3 pr-3 pt-2">Kelly D'Angelo</p>
@@ -92,7 +92,7 @@
             </div>
         </div>
         <div class="col-12 col-md-4 mt-3 mb-3 pr-3 pl-3">
-            <div class="veil" onmouseenter="polkadots(); polkadots2();" onmouseleave="polkadotsClose(); polkadotsClose2();">
+            <div class="veil">
                 <a href="pdmb.html">
                 <div id="polkadotsPopup2" class="d-none">
                     <p class="pl-3 pr-3 pt-2">Polkadots & Moonbeams</p>
@@ -105,7 +105,7 @@
             </div>
         </div>
         <div class="col-12 col-md-4 mt-3 mb-3 pr-3 pl-3">
-            <div class="veil" onmouseenter="northCounty(); northCounty2();" onmouseleave="northCountyClose(); northCountyClose2();">
+            <div class="veil">
                 <a href="noco.html">
                 <div id="nocoPopup2" class="d-none">
                     <p class="pl-3 pr-3 pt-2">Crossfit North County</p>
@@ -120,7 +120,7 @@
     </div>
     <div class="row ml-3 mr-3 mb-3 mt-md-3 mb-md-3">
         <div class="col-12 col-md-4 mt-3 mb-3 pr-3 pl-3">
-            <div class="veil" onmouseenter="scmma(); scmma2();" onmouseleave="scmmaClose(); scmmaClose2();">
+            <div class="veil">
                 <a href="scmma.html">
                 <div id="scmmaPopup2" class="d-none">
                     <p class="pl-3 pr-3 pt-2">St. Charles MMA</p>
@@ -133,7 +133,7 @@
             </div>
         </div>
         <div class="col-12 col-md-4 mt-3 mb-3 pr-3 pl-3">
-            <div class="veil" onmouseenter="nfa(); nfa2();" onmouseleave="nfaClose(); nfaClose2();">
+            <div class="veil">
                 <a href="nfa.html">
                 <div id="nfaPopup2" class="d-none">
                     <p class="pl-3 pr-3 pt-2">Nemesis Fighting Alliance</p>
@@ -146,7 +146,7 @@
             </div>
         </div>
         <div class="col-12 col-md-4 mt-3 mb-3 pr-3 pl-3">
-            <div class="veil" onmouseenter="zag(); zag2();" onmouseleave="zagClose(); zagClose2();">
+            <div class="veil">
                 <a href="zag.html">
                 <div id="zagPopup2" class="d-none">
                     <p class="pl-3 pr-3 pt-2">Zagarri Engineering</p>
@@ -181,276 +181,7 @@
 
 
 
-<script>
-
-var bm = document.getElementById("bailaMaxPopup");
-var bm2 = document.getElementById("bailaMaxPopup2");
-var mcs = document.getElementById("motionPopup");
-var mcs2 = document.getElementById("motionPopup2");
-var dd = document.getElementById("digDeepPopup");
-var dd2 = document.getElementById("digDeepPopup2");
-var til = document.getElementById("tilghmanPopup");
-var til2 = document.getElementById("tilghmanPopup2");
-var pdmb = document.getElementById("polkadotsPopup");
-var pdmb2 = document.getElementById("polkadotsPopup2");
-var noco = document.getElementById("nocoPopup");
-var noco2 = document.getElementById("nocoPopup2");
-var mma = document.getElementById("scmmaPopup");
-var mma2 = document.getElementById("scmmaPopup2");
-var nemesis = document.getElementById("nfaPopup");
-var nemesis2 = document.getElementById("nfaPopup2");
-var zagarri = document.getElementById("zagPopup");
-var zagarri2 = document.getElementById("zagPopup2");
-
-if (window.matchMedia("(max-width: 991px)").matches) {
-    bm.classList.remove("d-none");
-    bm.classList.add("animate");
-    bm2.classList.remove("d-none");
-    bm2.classList.add("animate2");
-
-    mcs.classList.remove("d-none");
-    mcs.classList.add("animate");
-    mcs2.classList.remove("d-none");
-    mcs2.classList.add("animate2");
-
-    dd.classList.remove("d-none");
-    dd.classList.add("animate");
-    dd2.classList.remove("d-none");
-    dd2.classList.add("animate2");
-
-    til.classList.remove("d-none");
-    til.classList.add("animate");
-    til2.classList.remove("d-none");
-    til2.classList.add("animate2");
-
-    pdmb.classList.remove("d-none");
-    pdmb.classList.add("animate");
-    pdmb2.classList.remove("d-none");
-    pdmb2.classList.add("animate2");
-
-    noco.classList.remove("d-none");
-    noco.classList.add("animate");
-    noco2.classList.remove("d-none");
-    noco2.classList.add("animate2");
-
-    mma.classList.remove("d-none");
-    mma.classList.add("animate");
-    mma2.classList.remove("d-none");
-    mma2.classList.add("animate2");
-
-    nemesis.classList.remove("d-none");
-    nemesis.classList.add("animate");
-    nemesis2.classList.remove("d-none");
-    nemesis2.classList.add("animate2");
-
-    zagarri.classList.remove("d-none");
-    zagarri.classList.add("animate");
-    zagarri2.classList.remove("d-none");
-    zagarri2.classList.add("animate2");
-}
-
-if (window.matchMedia("(min-width: 992px)").matches) {
-    bm.classList.remove("animate");
-    bm.classList.add("d-none");
-    bm2.classList.remove("animate2");
-    bm2.classList.add("d-none");
-
-    mcs.classList.remove("animate");
-    mcs.classList.add("d-none");
-    mcs2.classList.remove("animate2");
-    mcs2.classList.add("d-none");
-
-    dd.classList.remove("animate");
-    dd.classList.add("d-none");
-    dd2.classList.remove("animate2");
-    dd2.classList.add("d-none");
-
-    til.classList.remove("animate");
-    til.classList.add("d-none");
-    til2.classList.remove("animate2");
-    til2.classList.add("d-none");
-
-    pdmb.classList.remove("animate");
-    pdmb.classList.add("d-none");
-    pdmb2.classList.remove("animate2");
-    pdmb2.classList.add("d-none");
-
-    noco.classList.remove("animate");
-    noco.classList.add("d-none");
-    noco2.classList.remove("animate2");
-    noco2.classList.add("d-none");
-
-    mma.classList.remove("animate");
-    mma.classList.add("d-none");
-    mma2.classList.remove("animate2");
-    mma2.classList.add("d-none");
-
-    nemesis.classList.remove("animate");
-    nemesis.classList.add("d-none");
-    nemesis2.classList.remove("animate2");
-    nemesis2.classList.add("d-none");
-
-    zagarri.classList.remove("animate");
-    zagarri.classList.add("d-none");
-    zagarri2.classList.remove("animate2");
-    zagarri2.classList.add("d-none");
-}
-
-function bailaMax() {
-    bm.classList.remove("d-none");
-    bm.classList.add("animate");
-}
-function bailaMaxClose() {
-    bm.classList.remove("animate");
-    bm.classList.add("d-none");
-}
-function bailaMax2() {
-    bm2.classList.remove("d-none");
-    bm2.classList.add("animate2");
-}
-function bailaMaxClose2() {
-    bm2.classList.remove("animate2");
-    bm2.classList.add("d-none");
-}
-
-function motion() {
-    mcs.classList.remove("d-none");
-    mcs.classList.add("animate");
-}
-function motionClose() {
-    mcs.classList.remove("animate");
-    mcs.classList.add("d-none");
-}
-function motion2() {
-    mcs2.classList.remove("d-none");
-    mcs2.classList.add("animate2");
-}
-function motionClose2() {
-    mcs2.classList.remove("animate2");
-    mcs2.classList.add("d-none");
-}
-
-function digDeep() {
-    dd.classList.remove("d-none");
-    dd.classList.add("animate");
-}
-function digDeepClose() {
-    dd.classList.remove("animate");
-    dd.classList.add("d-none");
-}
-function digDeep2() {
-    dd2.classList.remove("d-none");
-    dd2.classList.add("animate2");
-}
-function digDeepClose2() {
-    dd2.classList.remove("animate2");
-    dd2.classList.add("d-none");
-}
-
-function tilghman() {
-    til.classList.remove("d-none");
-    til.classList.add("animate");
-}
-function tilghmanClose() {
-    til.classList.remove("animate");
-    til.classList.add("d-none");
-}
-function tilghman2() {
-    til2.classList.remove("d-none");
-    til2.classList.add("animate2");
-}
-function tilghmanClose2() {
-    til2.classList.remove("animate2");
-    til2.classList.add("d-none");
-}
-
-function polkadots() {
-    pdmb.classList.remove("d-none");
-    pdmb.classList.add("animate");
-}
-function polkadotsClose() {
-    pdmb.classList.remove("animate");
-    pdmb.classList.add("d-none");
-}
-function polkadots2() {
-    pdmb2.classList.remove("d-none");
-    pdmb2.classList.add("animate2");
-}
-function polkadotsClose2() {
-    pdmb2.classList.remove("animate2");
-    pdmb2.classList.add("d-none");
-}
-
-function northCounty() {
-    noco.classList.remove("d-none");
-    noco.classList.add("animate");
-}
-function northCountyClose() {
-    noco.classList.remove("animate");
-    noco.classList.add("d-none");
-}
-function northCounty2() {
-    noco2.classList.remove("d-none");
-    noco2.classList.add("animate2");
-}
-function northCountyClose2() {
-    noco2.classList.remove("animate2");
-    noco2.classList.add("d-none");
-}
-
-function scmma() {
-    mma.classList.remove("d-none");
-    mma.classList.add("animate");
-}
-function scmmaClose() {
-    mma.classList.remove("animate");
-    mma.classList.add("d-none");
-}
-function scmma2() {
-    mma2.classList.remove("d-none");
-    mma2.classList.add("animate2");
-}
-function scmmaClose2() {
-    mma2.classList.remove("animate2");
-    mma2.classList.add("d-none");
-}
-
-function nfa() {
-    nemesis.classList.remove("d-none");
-    nemesis.classList.add("animate");
-}
-function nfaClose() {
-    nemesis.classList.remove("animate");
-    nemesis.classList.add("d-none");
-}
-function nfa2() {
-    nemesis2.classList.remove("d-none");
-    nemesis2.classList.add("animate2");
-}
-function nfaClose2() {
-    nemesis2.classList.remove("animate2");
-    nemesis2.classList.add("d-none");
-}
-
-function zag() {
-    zagarri.classList.remove("d-none");
-    zagarri.classList.add("animate");
-}
-function zagClose() {
-    zagarri.classList.remove("animate");
-    zagarri.classList.add("d-none");
-}
-function zag2() {
-    zagarri2.classList.remove("d-none");
-    zagarri2.classList.add("animate2");
-}
-function zagClose2() {
-    zagarri2.classList.remove("animate2");
-    zagarri2.classList.add("d-none");
-}
-
-</script>
-
+    <script src="scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

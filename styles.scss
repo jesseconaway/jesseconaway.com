@@ -1,0 +1,586 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+
+
+.navbar-nav {
+    border-bottom: 1px solid black;
+
+    a {
+        font-size: 1.2rem;
+    }
+}
+.landingMessage {
+    width: 100%;
+    height: 390px;
+    background-color: rgba(255,255,255,1);
+    position: relative;
+    padding: 30px 80px;
+    margin: 0;
+    z-index: 3;
+}
+.landingMessage2 {
+    line-height: 2rem;
+}
+.landingMessage p {
+    margin: auto;
+    font-size: 1.6rem;
+    text-align: center;
+    color: black;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.landingMessageTop p {
+    transform: translateY(-70%);
+}
+.parallax-wrapper1, .parallax-wrapper2 {
+    overflow: hidden;
+    width: 100vw;
+    height:80vh;
+    padding-top: 0;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+    position: relative;
+    text-align: center;
+    color: white;
+    transition: 200ms;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    h1, h1 {
+        font-size: 3rem;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    a, a {
+        font-size: 3rem;
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover, a:hover {
+        font-size: 3.5rem;
+        text-shadow: 0 0 4px black;
+        transition: 100ms;
+        transform-origin: center;
+    }
+}
+.parallax-wrapper1::before {
+    content:"";
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    background-image: url("images/mcs-full.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    transform:translateZ(-1px) scale(1);
+}
+.regular-wrapper {
+    width: 100vw;
+    height:100vh;
+    padding-top:20vh;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+}
+body {
+    font-family: franklin-gothic-urw-cond, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+}
+h1, h2, h3, h4, h5 {
+    font-family: bodoni-urw, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.parallax-wrapper2::before {
+    content:"";
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-image: url("images/weightCutMobile.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -4;
+    transform:translateZ(-1px) scale(1) translateX(-8px);
+}
+.veil {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    z-index: 6;
+    transition: 200ms;
+    position: relative;
+    overflow: hidden;
+}
+.veil:hover {
+    transform: scale(1.05);
+    background-color: rgba(0,0,0,0);
+    transition: 200ms;
+    cursor: pointer;
+}
+.veilHome {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 5;
+    transition: 200ms;
+}
+.previewImg {
+    height: 100%;
+    width: 100%;
+    transition: 200ms;
+    z-index: 1;
+    opacity: 1;
+    position: relative;
+}
+.previewImg:hover {
+    opacity: 1;
+}
+.portfolioHeader {
+    font-size: 3rem;
+    color: black;
+}
+.socialIcon {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+.socialIcon:hover {
+    background-color: rgba(0,0,0,1)
+}
+@keyframes animation2 {
+    0% {top: -70px;}
+    40% {top: 20px;}
+    60% {top: -15px;}
+    80% {top: 10px;}
+    100% {top: 0px;}
+}
+@keyframes animation {
+    0% {bottom: -70px;}
+    40% {bottom: 20px;}
+    60% {bottom: -15px;}
+    80% {bottom: 10px;}
+    100% {bottom: 0px;}
+}
+.animate {
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-name: animation;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    z-index: 5;
+
+    p {
+        font-size: 2rem;
+        color: white;
+        line-height: 2rem;
+        text-align: center;
+    }
+}
+.animate2 {
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation-name: animation2;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    z-index: 5;
+
+    p {
+        font-size: 2rem;
+        color: white;
+        line-height: 2rem;
+        text-align: center;
+    }
+}
+.bodyCopy p {
+    font-size: 1.2rem;
+    color: black;
+}
+.projectHead {
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 3rem;
+}
+.projectSubhead {
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 2.2rem;
+}
+.modalHead {
+    font-size: 2rem;
+    line-height: 1.8rem;
+    margin: 5px 5px 0 auto;
+    text-align: left;
+}
+.carousel-control-prev {
+    background-image: linear-gradient(to right,  rgba(0,0,0,0.3), rgba(0,0,0,0));
+    width: 50px;
+    margin: 0;
+}
+.carousel-control-next {
+    background-image: linear-gradient(to right,  rgba(0,0,0,0), rgba(0,0,0,0.3));
+    width: 50px;
+    margin: 0;
+}
+.indicator {
+    cursor: pointer;
+    height: 90px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    img {
+        padding: 0;
+        object-fit: cover;
+        opacity: 0.5;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    img:hover {
+        opacity: 0.7;
+    }
+}
+
+.modalIndicatorRow {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.cloudRow {
+    /*height: 250px;*/
+    margin: 20px auto 40px auto;
+}
+.cloudRow3high {
+    /*height: 375px;*/
+    margin: 20px auto 40px auto;
+}
+.cloudCol {
+    height: 140px;
+    overflow: hidden;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.cloudColBig {
+    overflow: hidden;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.cloudImg {
+    object-fit: cover;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 100%;
+}
+.cloudImgNem {
+    object-fit: cover;
+    position: relative;
+    top: 50%;
+    transform: translateY(-45%);
+    cursor: pointer;
+    width: 100%;
+}
+.carousel-inner, .modal-body {
+    max-height: 100vh;
+    min-height: 80vh;
+}
+.carousel-item img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100vh;
+}
+.modal-dialog {
+    margin-top: 0;
+}
+.webDesignBlock {
+    height: 290px;
+    width: inherit;
+}
+.villainBlock {
+    background-image: url("images/villainScreenCap2.png");
+    background-origin: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.scienceGalBlock {
+    background-image: url("images/scienceGalScreenCap2.jpg");
+    background-origin: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.zagBlock {
+    background-image: url("images/Zag_lg.jpg");
+    background-origin: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.weightCutBlock {
+    background-image: url("images/weightCutHomepage.jpg");
+    background-origin: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.aboutNav {
+    padding: 0;
+    margin: 0;
+
+    li {
+        text-decoration: none;
+        margin: 0 0 10px 0;
+    }
+}
+.aboutBlock {
+    background-color: #6c757d;
+    border: 8px solid rgba(100,100,100,1);
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 40px;
+    overflow: hidden;
+
+    h1 {
+        position: absolute;
+        top: -5px;
+        left: -7px;
+        color: rgba(100,100,100,1);
+        font-size: 7rem;
+        line-height: 5rem;
+        padding: 0;
+        margin: 0;
+        z-index: 0;
+        font-family: franklin-gothic-urw-cond, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    p {
+        z-index: 9999;
+        margin-left: 30px;
+        color: white;
+        font-size: 1.2rem;
+        position: relative;
+    
+    }
+    ol {
+        z-index: 9999;
+    }
+    li {
+        margin-left: 20px;
+        color: white;
+        z-index: 9999;
+    }
+    h2 {
+        margin-left: 30px;
+        color: white;
+    }
+}
+.aboutPageBox {
+    padding: 15px;
+    display: none;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+.landingMessage p {
+    font-size: 2rem;
+    transform: translateY(-50%);
+}
+.landingMessageTop p {
+    transform: translateY(-70%);
+}
+.landingMessage2 {
+    line-height: 2.4rem;
+}
+.webDesignBlock {
+    width: 450px;
+}
+
+
+
+    
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+.parallax-wrapper::before {
+    transform:translateZ(-1px) scale(3);
+}
+.parallax-wrapper2::before {
+    content:"";
+    width: 100vw;
+    background-image: url("images/weightCutHomepage.jpg");
+    transform:translateZ(-1px) scale(2) translateX(-8px);
+}
+.landingMessage {
+    padding: 10px 80px;
+    height: 350px;
+
+    a {
+        text-decoration: none;
+        color: #6c757d;
+    }
+    p {
+        width: 70%;
+        font-size: 2.2rem;
+        transform: translateY(-50%);
+    }
+}
+.landingMessage2 {
+    line-height: 3rem;
+}
+.landingMessageTop p {
+    transform: translateY(-60%);
+}
+.parallax-wrapper a, .parallax-wrapper2 a {
+    font-size: 4rem;
+}
+.parallax-wrapper a:hover, .parallax-wrapper2 a:hover {
+    font-size: 4.5rem;
+}
+.previewImg {
+    opacity: 0.6;
+}
+.portfolioHeader {
+    font-size: 4rem;
+}
+.animate p, .animate2 p {
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+}
+.villainBlock {
+    background-image: url("images/villainScreenCap1.JPG");
+}
+.weightCutBlock {
+    background-image: url("images/weightCutHomepage.jpg");
+}
+.webDesignBlock {
+    width: 630px;
+}
+.scienceGalBlock {
+    background-image: url("images/scienceGalScreenCap1.JPG");
+}
+.aboutBlock {
+    p {
+        margin-left: 80px;
+    }
+    li {
+        margin-left: 70px;
+    }
+    h2 {
+        margin-left: 80px;
+        color: white;
+    }
+}
+.cloudCol {
+    height: 250px;
+}
+
+
+
+    
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+.landingMessage p {
+    width: 50%;
+}
+.parallax-wrapper a, .parallax-wrapper2 a {
+    font-size: 5rem;
+}
+.parallax-wrapper a:hover, .parallax-wrapper2 a:hover {
+    font-size: 5.5rem;
+}
+.landingMessage {
+    height: 450px;
+}
+.landingMessage2 {
+    line-height: 3.5rem;
+}
+.landingMessageTop p {
+    transform: translateY(-70%);
+}
+/*.cloudRow {
+    height: 400px;
+}
+.cloudRow3high {
+    height: 600px;
+}*/
+.animate p, .animate2 p {
+    font-size: 2.3rem;
+    line-height: 1.9rem;
+}
+.webDesignBlock {
+    height: 370px;
+    width: 870px;
+}
+.myFooter a {
+    padding-bottom: 0;
+}
+.cloudCol {
+    height: 210px;
+}
+
+
+
+    
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+.parallax-wrapper2::before {
+    transform:translateZ(-1px) scale(2.5) translateX(0);
+}
+.portfolioHeader {
+    font-size: 5rem;
+}
+/*.cloudRow {
+    height: 450px;
+}
+.cloudRow3high {
+    height: 675px;
+}*/
+.cloudCol {
+    height: 250px;
+}
+.animate p, .animate2 p {
+    font-size: 2.8rem;
+    line-height: 2.1rem;
+}
+.webDesignBlock {
+    height: 400px;
+    width: 1050px;
+}
+
+
+    
+}

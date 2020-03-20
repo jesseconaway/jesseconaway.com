@@ -38,55 +38,55 @@
     <h1 class="text-center portfolioHeader">Web Design Portfolio</h1>
     <div class="row ml-3 mr-3 mt-3 mt-md-0 pb-md-3 pt-md-2">
         <div class="col-12 mt-3 mb-3 mt-md-2 mb-md-3">
-            <div class="veil" onmouseenter="villain(); villain2();" onmouseleave="villainClose(); villainClose2();">
+            <div class="veil">
                 <a href="villain.html">
-                <div id="villainPopup2" class="d-none">
+                <div class="d-none">
                     <p class="pl-3 pr-3 pt-2">VillainUSA</p>
                 </div>
-                <div class="webDesignBlock villainBlock"></div>
-                <div id="villainPopup" class="d-none">
+                <div class="d-none">
                     <p class="pl-3 pr-3 pt-2">Website Design & Build</p>
                 </div>
+                <div class="webDesignBlock villainBlock"></div>
                 </a>
             </div>
         </div>
         <div class="col-12 mt-3 mb-3 mt-md-2 mb-md-3">
-                <div class="veil" onmouseenter="zag(); zag2();" onmouseleave="zagClose(); zagClose2();">
+                <div class="veil">
                     <a href="zaggari.html">
-                    <div id="zagPopup2" class="d-none">
+                    <div class="d-none">
                         <p class="pl-3 pr-3 pt-2">Zagarri Engineering</p>
                     </div>
-                    <div class="webDesignBlock zagBlock"></div>
-                    <div id="zagPopup" class="d-none">
+                    <div class="d-none">
                         <p class="pl-3 pr-3 pt-2">Website and Graphic Design</p>
                     </div>
+                    <div class="webDesignBlock zagBlock"></div>
                     </a>
                 </div>
             </div>
             <div class="col-12 mt-3 mb-3 mt-md-2 mb-md-3">
-                <div class="veil" onmouseenter="weightCut(); weightCut2();" onmouseleave="weightCutClose(); weightCutClose2();">
+                <div class="veil">
                     <a href="cuttingWeight.html">
-                    <div id="weightCutPopup2" class="d-none">
+                    <div class="d-none">
                         <p class="pl-3 pr-3 pt-2">Cutting Weight</p>
                     </div>
-                    <div class="webDesignBlock weightCutBlock"></div>
-                    <div id="weightCutPopup" class="d-none">
+                    <div class="d-none">
                         <p class="pl-3 pr-3 pt-2">Web Design & Build</p>
                     </div>
+                    <div class="webDesignBlock weightCutBlock"></div>
                     </a>
                 </div>
             </div>
         <div class="col-12 mt-3 mb-3 mt-md-2 mb-md-3">
-            <div class="veil" onmouseenter="sciencegal(); sciencegal2();" onmouseleave="sciencegalClose(); sciencegalClose2();">
+            <div class="veil">
                 <a href="sciencegal.html">
-                <div id="sciencegalPopup2" class="d-none">
+                <div class="d-none">
                     <p class="pl-3 pr-3 pt-2">Science Gal Aquatics</p>
                 </div>
-                <div class="webDesignBlock scienceGalBlock"></div>
-                <div id="sciencegalPopup" class="d-none">
+                <div class="d-none">
                     <p class="pl-3 pr-3 pt-2">Website Design & Build</p>
                 </div>
-            </a>
+                <div class="webDesignBlock scienceGalBlock"></div>
+                </a>
             </div>
         </div>
     </div>
@@ -112,164 +112,7 @@
 
 
 
-<script>
-
-var bm = document.getElementById("villainPopup");
-var bm2 = document.getElementById("villainPopup2");
-var mcs = document.getElementById("sciencegalPopup");
-var mcs2 = document.getElementById("sciencegalPopup2");
-var dd = document.getElementById("zagPopup");
-var dd2 = document.getElementById("zagPopup2");
-var til = document.getElementById("weightCutPopup");
-var til2 = document.getElementById("weightCutPopup2");
-var pdmb = document.getElementById("polkadotsPopup");
-var pdmb2 = document.getElementById("polkadotsPopup2");
-var noco = document.getElementById("nocoPopup");
-var noco2 = document.getElementById("nocoPopup2");
-
-if (window.matchMedia("(max-width: 991px)").matches) {
-    bm.classList.remove("d-none");
-    bm.classList.add("animate");
-    bm2.classList.remove("d-none");
-    bm2.classList.add("animate2");
-
-    mcs.classList.remove("d-none");
-    mcs.classList.add("animate");
-    mcs2.classList.remove("d-none");
-    mcs2.classList.add("animate2");
-
-    dd.classList.remove("d-none");
-    dd.classList.add("animate");
-    dd2.classList.remove("d-none");
-    dd2.classList.add("animate2");
-
-    til.classList.remove("d-none");
-    til.classList.add("animate");
-    til2.classList.remove("d-none");
-    til2.classList.add("animate2");
-}
-
-if (window.matchMedia("(min-width: 992px)").matches) {
-    bm.classList.remove("animate");
-    bm.classList.add("d-none");
-    bm2.classList.remove("animate2");
-    bm2.classList.add("d-none");
-
-    mcs.classList.remove("animate");
-    mcs.classList.add("d-none");
-    mcs2.classList.remove("animate2");
-    mcs2.classList.add("d-none");
-
-    dd.classList.remove("animate");
-    dd.classList.add("d-none");
-    dd2.classList.remove("animate2");
-    dd2.classList.add("d-none");
-}
-
-function villain() {
-    bm.classList.remove("d-none");
-    bm.classList.add("animate");
-}
-function villainClose() {
-    bm.classList.remove("animate");
-    bm.classList.add("d-none");
-}
-function villain2() {
-    bm2.classList.remove("d-none");
-    bm2.classList.add("animate2");
-}
-function villainClose2() {
-    bm2.classList.remove("animate2");
-    bm2.classList.add("d-none");
-}
-
-function sciencegal() {
-    mcs.classList.remove("d-none");
-    mcs.classList.add("animate");
-}
-function sciencegalClose() {
-    mcs.classList.remove("animate");
-    mcs.classList.add("d-none");
-}
-function sciencegal2() {
-    mcs2.classList.remove("d-none");
-    mcs2.classList.add("animate2");
-}
-function sciencegalClose2() {
-    mcs2.classList.remove("animate2");
-    mcs2.classList.add("d-none");
-}
-
-function zag() {
-    dd.classList.remove("d-none");
-    dd.classList.add("animate");
-}
-function zagClose() {
-    dd.classList.remove("animate");
-    dd.classList.add("d-none");
-}
-function zag2() {
-    dd2.classList.remove("d-none");
-    dd2.classList.add("animate2");
-}
-function zagClose2() {
-    dd2.classList.remove("animate2");
-    dd2.classList.add("d-none");
-}
-
-function weightCut() {
-    til.classList.remove("d-none");
-    til.classList.add("animate");
-}
-function weightCutClose() {
-    til.classList.remove("animate");
-    til.classList.add("d-none");
-}
-function weightCut2() {
-    til2.classList.remove("d-none");
-    til2.classList.add("animate2");
-}
-function weightCutClose2() {
-    til2.classList.remove("animate2");
-    til2.classList.add("d-none");
-}
-
-function polkadots() {
-    pdmb.classList.remove("d-none");
-    pdmb.classList.add("animate");
-}
-function polkadotsClose() {
-    pdmb.classList.remove("animate");
-    pdmb.classList.add("d-none");
-}
-function polkadots2() {
-    pdmb2.classList.remove("d-none");
-    pdmb2.classList.add("animate2");
-}
-function polkadotsClose2() {
-    pdmb2.classList.remove("animate2");
-    pdmb2.classList.add("d-none");
-}
-
-function northCounty() {
-    noco.classList.remove("d-none");
-    noco.classList.add("animate");
-}
-function northCountyClose() {
-    noco.classList.remove("animate");
-    noco.classList.add("d-none");
-}
-function northCounty2() {
-    noco2.classList.remove("d-none");
-    noco2.classList.add("animate2");
-}
-function northCountyClose2() {
-    noco2.classList.remove("animate2");
-    noco2.classList.add("d-none");
-}
-
-</script>
-
+    <script src="scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
