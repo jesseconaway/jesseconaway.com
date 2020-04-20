@@ -1,4 +1,13 @@
 /* Extra small devices (portrait phones, less than 576px)*/
+.bannerImg {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  z-index: 9;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
 .navbar-nav {
   border-bottom: 1px solid black;
 }
@@ -10,7 +19,7 @@
 .landingMessage {
   width: 100%;
   height: 390px;
-  background-color: white;
+  background-color: #f8f9fa;
   position: relative;
   padding: 30px 80px;
   margin: 0;
@@ -101,7 +110,7 @@
   width: 100vw;
   height: 100vh;
   padding-top: 20vh;
-  background-color: white;
+  background-color: #f8f9fa;
   z-index: 2;
   position: relative;
 }
@@ -110,7 +119,7 @@ body {
   font-family: franklin-gothic-urw-cond, sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: white;
+  background-color: #f8f9fa;
 }
 
 h1, h2, h3, h4, h5 {
