@@ -48,7 +48,8 @@
           transform: translateY(-70%);
 }
 
-.parallax-wrapper1, .parallax-wrapper2 {
+.parallax-wrapper1,
+.parallax-wrapper2 {
   overflow: hidden;
   width: 100vw;
   height: 80vh;
@@ -66,7 +67,10 @@
   border-bottom: 1px solid black;
 }
 
-.parallax-wrapper1 h1, .parallax-wrapper1 h1, .parallax-wrapper2 h1, .parallax-wrapper2 h1 {
+.parallax-wrapper1 h1,
+.parallax-wrapper1 h1,
+.parallax-wrapper2 h1,
+.parallax-wrapper2 h1 {
   font-size: 3rem;
   position: relative;
   top: 50%;
@@ -76,13 +80,19 @@
   z-index: 3;
 }
 
-.parallax-wrapper1 a, .parallax-wrapper1 a, .parallax-wrapper2 a, .parallax-wrapper2 a {
+.parallax-wrapper1 a,
+.parallax-wrapper1 a,
+.parallax-wrapper2 a,
+.parallax-wrapper2 a {
   font-size: 3rem;
   text-decoration: none;
   color: white;
 }
 
-.parallax-wrapper1 a:hover, .parallax-wrapper1 a:hover, .parallax-wrapper2 a:hover, .parallax-wrapper2 a:hover {
+.parallax-wrapper1 a:hover,
+.parallax-wrapper1 a:hover,
+.parallax-wrapper2 a:hover,
+.parallax-wrapper2 a:hover {
   font-size: 3.5rem;
   text-shadow: 0 0 4px black;
   -webkit-transition: 100ms;
@@ -122,7 +132,11 @@ body {
   background-color: #f8f9fa;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: bodoni-urw, serif;
   font-weight: 400;
   font-style: normal;
@@ -442,7 +456,8 @@ h1, h2, h3, h4, h5 {
   width: 100%;
 }
 
-.carousel-inner, .modal-body {
+.carousel-inner,
+.modal-body {
   max-height: 100vh;
   min-height: 80vh;
 }
@@ -608,10 +623,12 @@ h1, h2, h3, h4, h5 {
     -webkit-transform: translateY(-60%);
             transform: translateY(-60%);
   }
-  .parallax-wrapper a, .parallax-wrapper2 a {
+  .parallax-wrapper a,
+  .parallax-wrapper2 a {
     font-size: 4rem;
   }
-  .parallax-wrapper a:hover, .parallax-wrapper2 a:hover {
+  .parallax-wrapper a:hover,
+  .parallax-wrapper2 a:hover {
     font-size: 4.5rem;
   }
   .previewImg {
@@ -620,12 +637,13 @@ h1, h2, h3, h4, h5 {
   .portfolioHeader {
     font-size: 4rem;
   }
-  .animate p, .animate2 p {
+  .animate p,
+  .animate2 p {
     font-size: 1.5rem;
     line-height: 1.2rem;
   }
   .villainBlock {
-    background-image: url("images/villainScreenCap1.JPG");
+    background-image: url("images/villainScreenCap1.png");
   }
   .weightCutBlock {
     background-image: url("images/weightCutHomepage.jpg");
@@ -656,10 +674,12 @@ h1, h2, h3, h4, h5 {
   .landingMessage p {
     width: 50%;
   }
-  .parallax-wrapper a, .parallax-wrapper2 a {
+  .parallax-wrapper a,
+  .parallax-wrapper2 a {
     font-size: 5rem;
   }
-  .parallax-wrapper a:hover, .parallax-wrapper2 a:hover {
+  .parallax-wrapper a:hover,
+  .parallax-wrapper2 a:hover {
     font-size: 5.5rem;
   }
   .landingMessage {
@@ -678,7 +698,8 @@ h1, h2, h3, h4, h5 {
 .cloudRow3high {
     height: 600px;
 }*/
-  .animate p, .animate2 p {
+  .animate p,
+  .animate2 p {
     font-size: 2.3rem;
     line-height: 1.9rem;
   }
@@ -712,7 +733,8 @@ h1, h2, h3, h4, h5 {
   .cloudCol {
     height: 250px;
   }
-  .animate p, .animate2 p {
+  .animate p,
+  .animate2 p {
     font-size: 2.8rem;
     line-height: 2.1rem;
   }
